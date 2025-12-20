@@ -1,0 +1,27 @@
+import express from "express";
+import cors from "cors";
+
+import authRoutes from "./routes/auth.routes.js";
+import examRoutes from "./routes/exam.routes.js";
+import subjectRoutes from "./routes/subject.routes.js";
+import chapterRoutes from "./routes/chapter.routes.js";
+import questionRoutes from "./routes/question.routes.js";
+import bookmarkRoutes from "./routes/bookmark.routes.js";
+
+const app = express();
+
+app.use(cors());
+app.use(express.json());
+
+app.use("/api/auth", authRoutes);
+app.use("/api/exams", examRoutes);
+app.use("/api/subjects", subjectRoutes);
+app.use("/api/chapters", chapterRoutes);
+app.use("/api/questions", questionRoutes);
+app.use("/api/bookmarks", bookmarkRoutes);
+
+app.get("/", (req, res) => {
+  res.send("Mentivra API is running");
+});
+
+export default app;
