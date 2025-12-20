@@ -10,7 +10,14 @@ import bookmarkRoutes from "./routes/bookmark.routes.js";
 
 const app = express();
 
-app.use(cors());
+app.use(cors({
+  origin: [
+    "http://localhost:5173",
+    "https://mentivra-frontend.vercel.app/",
+    "https://mentivra-frontend.vercel.app"
+  ],
+  credentials: true
+}));
 app.use(express.json());
 
 app.use("/api/auth", authRoutes);
