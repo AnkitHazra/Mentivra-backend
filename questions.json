@@ -1,0 +1,29 @@
+[
+  {
+    "exam": "JEE",
+    "subject": "Physics",
+    "chapter": "Kinematics",
+    "questionText": "What quantity is displacement?",
+    "optionA": "Scalar",
+    "optionB": "Vector",
+    "optionC": "Tensor",
+    "optionD": "Matrix",
+    "correctAnswer": "Vector",
+    "solution": "Displacement is a vector quantity.",
+    "year": 2018
+  },
+
+  {
+    "exam": "JEE",
+    "subject": "Physics",
+    "chapter": "Kinematics",
+    "questionText": "Acceleration is rate of change of ____",
+    "optionA": "Displacement",
+    "optionB": "Velocity",
+    "optionC": "Mass",
+    "optionD": "Momentum",
+    "correctAnswer": "Velocity",
+    "solution": "a = dv/dt",
+    "year": 2022
+  }
+]

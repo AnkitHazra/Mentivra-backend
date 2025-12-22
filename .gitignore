@@ -127,5 +127,7 @@ logs/
 *.temp
 
 # Seed files (if they contain sensitive data or generated content)
-# seed.js
-# seed1.js
+seed.js
+seed1.js
+questions.json
+seedQuestion.js

@@ -20,7 +20,7 @@ export const getQuestionsByChapter = async (req, res) => {
       .sort({ year: -1 })
       .skip(PAGE_SIZE * (pageNumber - 1))
       .limit(PAGE_SIZE)
-      .select("-correctAnswer"); // hide answer initially
+      .select(); 
 
     res.json({
       questions,
