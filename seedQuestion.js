@@ -13,7 +13,7 @@ await mongoose.connect("mongodb+srv://hazraankit668_db_user:TTZkOoYZKaE4axiR@clu
 async function uploadQuestions() {
   try {
 
-    const raw = fs.readFileSync("backend/questions.json");
+    const raw = fs.readFileSync("D:/Question/physics_ch01_physical_world_units_measurements.json");
     const data = JSON.parse(raw);
 
     for (let q of data) {
