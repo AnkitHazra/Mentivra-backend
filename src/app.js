@@ -16,7 +16,8 @@ app.use(cors({
     "http://localhost:5173",
     "https://mentivra-frontend.vercel.app/",
     "https://mentivra-frontend.vercel.app",
-    "https://www.mentivra.site/"
+    "https://www.mentivra.site/",
+    "https://mentivra.site"
   ],
   credentials: true
 }));
