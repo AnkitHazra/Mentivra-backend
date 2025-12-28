@@ -115,7 +115,7 @@ Mentivra-backend/
 
 - nodemon – Development auto-reload tool
 
-#Authentication
+# Authentication
 
 - Passwords are securely hashed using bcrypt
 
@@ -123,7 +123,7 @@ Mentivra-backend/
 
 - Protected routes require a valid Bearer token
 
-3Database
+# Database
 
 - MongoDB is used as the primary database
 
@@ -131,15 +131,15 @@ Mentivra-backend/
 
 - Connection is configured via MONGO_URI
 
-#AI Integration
+# AI Integration
 
 - Mentivra integrates Google Generative AI to enable AI-driven features and responses.
 The API key must be provided using the GOOGLE_API_KEY environment variable.
 
-#License
+ #License
 
 This project is licensed under the ISC License.
 
-#Maintainer
+# Maintainer
 
- [ANKIT HAZRA](https://www.ankithazra.online/)
+ ### [ANKIT HAZRA](https://www.ankithazra.online/)
